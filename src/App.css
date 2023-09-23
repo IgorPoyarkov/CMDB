@@ -1,0 +1,85 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+
+header {
+  background-color: rgba(78, 78, 163, 0.367);
+  display: flex;
+  width: 100%;
+  height: 10vh;
+  justify-content: space-evenly;
+}
+
+aside {
+  background-color: rgba(8, 78, 163, 0.367);
+  width: 24%;
+  height: 70vh;
+  text-align: left;
+}
+
+main {
+  background-color:  rgba(78, 8, 163, 0.367);
+  width: 76%;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+
+}
+
+li {
+  list-style-type: none;
+}
+
+table {
+	width: 100%;
+	margin-bottom: 20px;
+	border: 5px solid #fff;
+	border-top: 5px solid #fff;
+	border-bottom: 3px solid #fff;
+	border-collapse: collapse; 
+	outline: 3px solid #ffd300;
+	font-size: 15px;
+	background: #fff!important;
+}
+table th {
+	font-weight: bold;
+	padding: 7px;
+	background: #ffd300;
+	border: none;
+	text-align: left;
+	font-size: 15px;
+	border-top: 3px solid #fff;
+	border-bottom: 3px solid #ffd300;
+}
+table td {
+	padding: 7px;
+	border: none;
+	border-top: 3px solid #fff;
+	border-bottom: 3px solid #fff;
+	font-size: 15px;
+}
+table tbody tr:nth-child(even){
+	background: #f8f8f8!important;
+}
+
+
+.dialog {
+  display: flex;
+}
+
+.schapka {
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+  align-content: center;
+}
+
+.filtry {
+  border-style: double;
+  border-color: cyan;
+  background-color: aquamarine;
+}
