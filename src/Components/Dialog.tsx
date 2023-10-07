@@ -5,7 +5,6 @@ interface IDialogProps {
 }
 
 
-
 const Dialog: FC<IDialogProps> = ({ component }) => {
     return (
         <div className='dialog'>
